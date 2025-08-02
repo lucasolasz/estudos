@@ -1,0 +1,53 @@
+# Arquivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Diretórios de saída comuns
+bin/
+out/
+target/
+build/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+*.~*
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Arquivos do Eclipse
+.project
+.classpath
+.settings/
+
+# Maven
+.mvn/
+!**/src/**
+
+# Gradle
+.gradle/
+build/
+
+# Arquivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Java específico (caso use jpackage no Java 14+)
+*.jpackage/
+
+# Arquivos gerados por testes
+test-output/
